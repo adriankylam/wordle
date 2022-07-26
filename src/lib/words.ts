@@ -4,8 +4,8 @@ import { WRONG_SPOT_MESSAGE, NOT_CONTAINED_MESSAGE } from '../constants/strings'
 import { getGuessStatuses } from './statuses'
 import { default as GraphemeSplitter } from 'grapheme-splitter'
 
-// 1 January 2022 Game Epoch
-export const firstGameDate = new Date(2022, 0)
+// 9 May 2021 Game Epoch
+export const firstGameDate = new Date(2021, 5, 9)
 export const periodInDays = 1
 
 export const isWordInWordList = (word: string) => {
